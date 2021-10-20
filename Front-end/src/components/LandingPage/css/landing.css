@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap");
+
+/* font-family: 'Asap', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Poppins', sans-serif; */
+.sub-text p {
+  font-family: "Baloo Bhai 2", cursive !important;
+}
+.sub-text {
+  position: absolute;
+  top: 200px;
+  left: 8%;
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+  max-width: 455px;
+}
+.sub-text span {
+  font-size: 34px;
+  color: #1833aa;
+  font-weight: 800;
+}
+.formBottom {
+  font-family: "Baloo Bhai 2", cursive !important;
+  margin-top: 10px;
+  text-align: center;
+}
+.formBottom p {
+  font-family: "Baloo Bhai 2", cursive !important;
+}
+.formBottom span {
+  color: #1833aa;
+  font-weight: 800;
+  font-family: "Baloo Bhai 2", cursive !important;
+}
+.formSubmit {
+  padding: 30px;
+  position: absolute;
+  height: 480px;
+  width: 450px;
+  background-color: white;
+  top: 190px;
+  right: 8%;
+  border-radius: 20px;
+  box-shadow: 1px 5px 5px 0px #1f8fda;
+}
+.heading {
+  font-family: "Baloo Bhai 2", cursive !important;
+  color: white;
+  line-height: 70px;
+  position: absolute;
+  font-size: 90px;
+  font-weight: 600;
+  top: 110px;
+  left: 8%;
+  max-width: 780px;
+}
+.formSubmit h3 {
+  font-family: "Baloo Bhai 2", cursive !important;
+  text-align: center;
+  font-weight: 600;
+  color: #00167a;
+}
+.firstField {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+
+.MuiFormControl-root {
+  margin: 15px 0px !important;
+  width: 100%;
+}
+.button-div {
+  margin-top: 10px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-div .button {
+  font-family: "Baloo Bhai 2", cursive !important;
+  border-radius: 50px;
+  height: 50px;
+  width: 350px;
+}
+.btOne {
+  background-color: #0693e3 !important;
+}
+.btTwo {
+  background-color: rgba(255, 255, 255, 0) !important;
+  color: black !important;
+  border: 1px solid black !important;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.features .featureHeading {
+  font-family: "Baloo Bhai 2", cursive !important;
+  color: #00167a;
+  font-size: 50px;
+  font-weight: 600;
+}
+.features .featureSub {
+  font-family: "Baloo Bhai 2", cursive !important;
+  padding: 0px 450px;
+  text-align: justify;
+  text-align-last: center;
+  font-size: 18px;
+}
+.cardContent {
+  margin: 80px 0px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+}
+.featureImage {
+  display: flex;
+  justify-content: center;
+}
+.ftImage {
+  width: 200px !important;
+  height: 200px !important;
+}
+.card-body {
+  border: none !important;
+  padding: none !important;
+}
+.cardTitle {
+  font-family: "Baloo Bhai 2", cursive !important;
+  text-transform: capitalize;
+  color: #00167a;
+  text-align: center !important;
+  font-size: 30px !important;
+  font-weight: 600 !important;
+}
+.card-Content {
+  font-family: "Baloo Bhai 2", cursive !important;
+  font-size: 20px !important;
+  text-align: center !important;
+}
+
+.footer {
+  height: 100px;
+  background-color: #3dabea;
+}
+#svg1 {
+  margin-top: -1px !important;
+}
+#svg2 {
+    margin-bottom: -1px !important;
+    z-index: -1;
+    position: relative;
+}
