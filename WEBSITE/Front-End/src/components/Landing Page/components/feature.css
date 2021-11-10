@@ -1,7 +1,8 @@
 .feature-section {
-  padding: 100px 180px 0px;
+  padding: 150px 180px;
 }
 .feature-section .cards-section {
+  padding: 50px 30px;
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-between;
@@ -11,7 +12,7 @@
   color: white;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 .card-template {
   font-family: "ABeeZee", sans-serif;
