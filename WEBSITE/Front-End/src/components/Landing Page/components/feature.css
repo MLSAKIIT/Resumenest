@@ -1,0 +1,35 @@
+.feature-section {
+  padding: 100px 180px 0px;
+}
+.feature-section .cards-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  margin: 50px 0px;
+}
+.feature-section h1 {
+  color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 60px;
+}
+.card-template {
+  font-family: "ABeeZee", sans-serif;
+  border-radius: 15px;
+  /* background-image: linear-gradient(to right bottom, #050511, #0a0621, #0d072f, #10063c, #180148); */
+  background-color: transparent;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(5, 5, 17, 0.7),
+    rgba(6, 4, 24, 0.7),
+    rgba(8, 4, 29, 0.7),
+    rgba(11, 2, 34, 0.7),
+    rgba(38, 7, 107, 0.7)
+  );
+  color: white !important;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
