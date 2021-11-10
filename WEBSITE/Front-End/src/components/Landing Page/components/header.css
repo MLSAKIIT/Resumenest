@@ -1,0 +1,30 @@
+/* font-family: 'ABeeZee', sans-serif;
+font-family: 'Cairo', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+.header-section{
+    margin: 100px 180px;
+}
+.header-main-div{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.header-main-div .text-section{
+    color: white !important;
+}
+.header-main-div .text-section h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.header-main-div .text-section h1 span{
+    color: rgb(124, 116, 116);
+}
+.header-main-div .text-section p{
+    max-width: 650px;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 22px;
+    color: rgb(153, 149, 149);
+    margin-bottom: 30px;
+}

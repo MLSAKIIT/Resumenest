@@ -1,0 +1,19 @@
+.navbar-section{
+    height: 5rem;
+    margin: 0px 180px;
+}
+.nav-div{
+    padding: 0px;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.me-auto{
+    margin:0px !important;
+}
+.brand{
+    font-size: 18px !important;
+}
+.nav-item{
+    font-size: 18px;
+    margin: 0px 15px;
+}
