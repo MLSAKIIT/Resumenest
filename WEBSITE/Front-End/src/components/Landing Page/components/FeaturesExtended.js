@@ -4,11 +4,14 @@ import "./featureExtended.css";
 import vid1URL from "../videos/design_light.mp4";
 import vid2URL from "../videos/dnd_light.mp4";
 import vid3URL from "../videos/toggle_light.mp4";
-import { width } from "@mui/system";
+
+import gif1URL from "../gif/toggle_light.gif";
+import gif2URL from "../gif/design_light.gif";
+import gif3URL from "../gif/dnd_light.gif";
 function FeaturesExtended() {
   return (
-      <div className="feature-extended">
-          <h2 className="ext-heading">How we do this ?</h2>
+    <div className="feature-extended">
+      <h2 className="ext-heading">How we do this ?</h2>
       <div className="feature-1">
         <div className="text">
           <h2>Drag-n-Drop Layouts</h2>
@@ -19,16 +22,20 @@ function FeaturesExtended() {
           </p>
         </div>
         <div className="vid">
-          <video autoPlay loop muted style={{ width: "600px" }}>
+          {/* <video autoPlay loop muted style={{ width: "600px" }}>
             <source src={vid1URL} type="video/mp4" />
-          </video>
+          </video> */}
+          {/* <ReactPlayer playing url={vid1URL} loop muted /> */}
+          <img src={gif1URL} alt="gif1" width="600px" />
         </div>
       </div>
       <div className="feature-2">
         <div className="vid">
-          <video autoPlay loop muted style={{ width: "600px" }}>
+          {/* <video autoPlay loop muted style={{ width: "600px" }}>
             <source src={vid2URL} type="video/mp4" />
-          </video>
+          </video> */}
+          {/* <ReactPlayer playing url={vid3URL} loop muted /> */}
+          <img src={gif2URL} alt="gif2" width="600px" />
         </div>
         <div className="text">
           <h2>Enhanced Design Controls</h2>
@@ -49,9 +56,11 @@ function FeaturesExtended() {
           </p>
         </div>
         <div className="vid">
-          <video autoPlay loop muted style={{ width: "600px" }}>
+          {/* <video autoPlay loop muted style={{ width: "600px" }}>
             <source src={vid3URL} type="video/mp4" />
-          </video>
+          </video> */}
+          {/* <ReactPlayer playing url={vid3URL} loop muted /> */}
+          <img src={gif3URL} alt="gif3" width="600px" />
         </div>
       </div>
     </div>
