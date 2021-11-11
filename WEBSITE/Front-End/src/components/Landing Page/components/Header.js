@@ -1,4 +1,5 @@
 import React from "react";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import "./header.css";
 import {Button} from "react-bootstrap"
 function Header() {
@@ -15,7 +16,11 @@ function Header() {
             the simplest resume building experience. Save hours of frustation,
             seize the day.
           </p>
-          <Button>Get Started</Button>
+          {/* <Button>Get Started</Button> */}
+          <button className="button-79" role="button">
+            Build Your Resume <ArrowForwardIcon />
+          </button>
+          <h5 class="free-feature">Yes, All the features are free</h5>
         </div>
         <div className="image-section"></div>
       </div>

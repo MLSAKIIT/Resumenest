@@ -1,0 +1,28 @@
+.about-section {
+  color: white;
+  padding: 80px 180px;
+}
+.about-section h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+.about-section .content-section {
+  display: grid;
+  grid-template-columns: 40% auto;
+  padding: 100px 0px;
+  grid-gap: 50px;
+}
+.about-section .content-section .image-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+}
+.about-section .content-section .text-section{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 20px;
+}
+.about-section .image-section h5{
+    margin-top: 20px;
+}

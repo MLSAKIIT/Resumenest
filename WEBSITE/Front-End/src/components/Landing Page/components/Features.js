@@ -12,19 +12,22 @@ function Features () {
    }, []);
   return (
     <div className="feature-section">
-      <h1 data-aos="fade-up">It comes with lot of features</h1>
+      <h1 data-aos="fade-up" data-aos-once="true">
+        It comes with lot of features
+      </h1>
       <div className="cards-section">
         <Card
-          style={{ width: "20rem" }}
+          style={{ width: "22rem" }}
           className="card-template"
           data-aos="fade-up"
+          data-aos-once="true"
         >
           {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
           <Card.Header>
             <InsertDriveFileIcon className="feature-icon" />
           </Card.Header>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title className="card-title">Card Title</Card.Title>
             <Card.Text>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -33,16 +36,17 @@ function Features () {
           </Card.Body>
         </Card>
         <Card
-          style={{ width: "20rem" }}
+          style={{ width: "22rem" }}
           className="card-template"
           data-aos="fade-up"
+          data-aos-once="true"
         >
           {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
           <Card.Header>
             <PeopleAltIcon className="feature-icon" />
           </Card.Header>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title className="card-title">Card Title</Card.Title>
             <Card.Text>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -51,16 +55,17 @@ function Features () {
           </Card.Body>
         </Card>
         <Card
-          style={{ width: "20rem" }}
+          style={{ width: "22rem" }}
           className="card-template"
           data-aos="fade-up"
+          data-aos-once="true"
         >
           {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
           <Card.Header>
             <AssessmentIcon className="feature-icon" />
           </Card.Header>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title className="card-title">Card Title</Card.Title>
             <Card.Text>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

@@ -12,10 +12,10 @@ function NavBar() {
         </Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link href="#home" className="nav-item">
-            About
+            Features
           </Nav.Link>
           <Nav.Link href="#features" className="nav-item">
-            Features
+            About
           </Nav.Link>
           <Nav.Link href="#pricing" className="nav-item">
             Contact Us
@@ -25,7 +25,7 @@ function NavBar() {
           <Nav.Link href="#home" className="nav-item">
             Sign In
           </Nav.Link>
-          <Button>Register</Button>
+          <Button className="Register">Register</Button>
         </Nav>
       </Container>
     </Navbar>

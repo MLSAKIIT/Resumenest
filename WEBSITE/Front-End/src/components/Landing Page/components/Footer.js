@@ -7,7 +7,7 @@ function Footer() {
       <div className="blur">
         <div className="content-section">
           <div className="brand-section">
-            <h2>Resuminest</h2>
+            <h2>Resuminest.</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

@@ -1,6 +1,11 @@
 .navbar-section{
+    position: fixed;
+    top: 0;
+    width: 100%;
     height: 5rem;
-    margin: 0px 180px;
+    padding: 0px 180px;
+    background-color: rgba(5,5,17,0.89);
+    z-index: 2;
 }
 .nav-div{
     padding: 0px;
@@ -18,4 +23,11 @@
 .nav-item{
     font-size: 18px;
     margin: 0px 15px;
+}
+
+.Register{
+    background: #2e18c5;
+    border: none;
+    border-radius: 40px;
+    width: 100px;
 }

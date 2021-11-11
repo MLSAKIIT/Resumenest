@@ -29,7 +29,8 @@
 }
 .brand-section h2{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 800;
+    color: #442aee;
 }
 .brand-section p{
     font-family: 'ABeeZee', sans-serif;
@@ -42,6 +43,7 @@
 }
 .link-section h6{
     font-size: 18px;
+    margin-top: 10px;
 }
 .link-section ul {
   list-style-type: none;
