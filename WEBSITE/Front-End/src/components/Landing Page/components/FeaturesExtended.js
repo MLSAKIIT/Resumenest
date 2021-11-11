@@ -1,18 +1,20 @@
-import React from "react";
-import ReactPlayer from "react-player";
+import React,{useEffect} from "react";
 import "./featureExtended.css";
-import vid1URL from "../videos/design_light.mp4";
-import vid2URL from "../videos/dnd_light.mp4";
-import vid3URL from "../videos/toggle_light.mp4";
+import Aos from "aos";
 
 import gif1URL from "../gif/toggle_light.gif";
 import gif2URL from "../gif/design_light.gif";
 import gif3URL from "../gif/dnd_light.gif";
-function FeaturesExtended() {
+function FeaturesExtended () {
+     useEffect(() => {
+       Aos.init({ duration: 1100 });
+     }, []);
   return (
     <div className="feature-extended">
-      <h2 className="ext-heading">How we do this ?</h2>
-      <div className="feature-1">
+      <h2 className="ext-heading" data-aos="fade-up" data-aos-once="true">
+        How we do this ?
+      </h2>
+      <div className="feature-1" data-aos="fade-up" data-aos-once="true">
         <div className="text">
           <h2>Drag-n-Drop Layouts</h2>
           <p>
@@ -22,19 +24,11 @@ function FeaturesExtended() {
           </p>
         </div>
         <div className="vid">
-          {/* <video autoPlay loop muted style={{ width: "600px" }}>
-            <source src={vid1URL} type="video/mp4" />
-          </video> */}
-          {/* <ReactPlayer playing url={vid1URL} loop muted /> */}
           <img src={gif1URL} alt="gif1" width="600px" />
         </div>
       </div>
-      <div className="feature-2">
+      <div className="feature-2" data-aos="fade-up" data-aos-once="true">
         <div className="vid">
-          {/* <video autoPlay loop muted style={{ width: "600px" }}>
-            <source src={vid2URL} type="video/mp4" />
-          </video> */}
-          {/* <ReactPlayer playing url={vid3URL} loop muted /> */}
           <img src={gif2URL} alt="gif2" width="600px" />
         </div>
         <div className="text">
@@ -46,7 +40,7 @@ function FeaturesExtended() {
           </p>
         </div>
       </div>
-      <div className="feature-3">
+      <div className="feature-3" data-aos="fade-up" data-aos-once="true">
         <div className="text">
           <h2>Easy Toggles</h2>
           <p>
@@ -56,10 +50,6 @@ function FeaturesExtended() {
           </p>
         </div>
         <div className="vid">
-          {/* <video autoPlay loop muted style={{ width: "600px" }}>
-            <source src={vid3URL} type="video/mp4" />
-          </video> */}
-          {/* <ReactPlayer playing url={vid3URL} loop muted /> */}
           <img src={gif3URL} alt="gif3" width="600px" />
         </div>
       </div>
