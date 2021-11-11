@@ -1,0 +1,45 @@
+.feature-extended {
+  padding: 40px 180px;
+  color: white;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 18px;
+}
+.feature-extended .feature-1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 100px;
+  margin: 100px 0px;
+}
+.feature-extended .feature-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 100px;
+  margin: 100px 0px;
+}
+.feature-extended .feature-3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 100px;
+  margin: 100px 0px;
+}
+.feature-1 .text,
+.feature-2 .text,
+.feature-3 .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.feature-extended .ext-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+}
+.feature-1 .text h2,
+.feature-2 .text h2,
+.feature-3 .text h2{
+    color : rgb(46,24,197);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
