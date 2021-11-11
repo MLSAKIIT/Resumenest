@@ -19,14 +19,14 @@ function FeaturesExtended() {
           </p>
         </div>
         <div className="vid">
-          <video autoPlay loop muted style={{ width: "500px" }}>
+          <video autoPlay loop muted style={{ width: "600px" }}>
             <source src={vid1URL} type="video/mp4" />
           </video>
         </div>
       </div>
       <div className="feature-2">
         <div className="vid">
-          <video autoPlay loop muted style={{ width: "500px" }}>
+          <video autoPlay loop muted style={{ width: "600px" }}>
             <source src={vid2URL} type="video/mp4" />
           </video>
         </div>
@@ -49,7 +49,7 @@ function FeaturesExtended() {
           </p>
         </div>
         <div className="vid">
-          <video autoPlay loop muted style={{ width: "500px" }}>
+          <video autoPlay loop muted style={{ width: "600px" }}>
             <source src={vid3URL} type="video/mp4" />
           </video>
         </div>
