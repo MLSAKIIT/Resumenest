@@ -2,15 +2,18 @@
   background-color: #050511;
   width: 100%;
   height: 100%;
-    background-image: url("./images/1.jpg");
+  /* background-image: url("./images/1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -20px;
-  background-position-x: center;
+  background-position-x: center; */
   margin: 0px;
   padding: 0px;
-  
 }
-.home-section .spiralBackground{
-
+.home-section .spiralBackground {
+  background-image: url("./images/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -150px;
+  background-position-x: -450px;
 }

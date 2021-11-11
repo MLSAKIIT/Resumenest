@@ -1,16 +1,28 @@
-import React from "react";
+import React,{useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "./feature.css";
-import { Card, Button } from "react-bootstrap";
-function Features() {
+import AssessmentIcon from "@mui/icons-material/Assessment";
+import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
+import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
+import { Card } from "react-bootstrap";
+function Features () {
+   useEffect(() => {
+     Aos.init({ duration: 1100 });
+   }, []);
   return (
     <div className="feature-section">
-      <h1>It comes with lot of features</h1>
+      <h1 data-aos="fade-up">It comes with lot of features</h1>
       <div className="cards-section">
         <Card
-          style={{ width: "20rem"}}
+          style={{ width: "20rem" }}
           className="card-template"
+          data-aos="fade-up"
         >
-          <Card.Img variant="top" src="holder.js/100px180" />
+          {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+          <Card.Header>
+            <InsertDriveFileIcon className="feature-icon" />
+          </Card.Header>
           <Card.Body>
             <Card.Title>Card Title</Card.Title>
             <Card.Text>
@@ -21,10 +33,14 @@ function Features() {
           </Card.Body>
         </Card>
         <Card
-          style={{ width: "20rem"}}
+          style={{ width: "20rem" }}
           className="card-template"
+          data-aos="fade-up"
         >
-          <Card.Img variant="top" src="holder.js/100px180" />
+          {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+          <Card.Header>
+            <PeopleAltIcon className="feature-icon" />
+          </Card.Header>
           <Card.Body>
             <Card.Title>Card Title</Card.Title>
             <Card.Text>
@@ -35,10 +51,14 @@ function Features() {
           </Card.Body>
         </Card>
         <Card
-          style={{ width: "20rem"}}
+          style={{ width: "20rem" }}
           className="card-template"
+          data-aos="fade-up"
         >
-          <Card.Img variant="top" src="holder.js/100px180" />
+          {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+          <Card.Header>
+            <AssessmentIcon className="feature-icon" />
+          </Card.Header>
           <Card.Body>
             <Card.Title>Card Title</Card.Title>
             <Card.Text>
