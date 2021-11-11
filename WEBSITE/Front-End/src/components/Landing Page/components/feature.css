@@ -1,0 +1,48 @@
+.feature-section {
+  padding: 150px 180px 100px;
+}
+.feature-section .cards-section {
+  padding: 50px 0px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  margin: 50px 0px;
+}
+.feature-section h1 {
+  color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  /*  */
+  margin-bottom: 100px;
+}
+.card-template {
+  font-family: "ABeeZee", sans-serif;
+  border-radius: 15px;
+  /* background-image: linear-gradient(to right bottom, #050511, #0a0621, #0d072f, #10063c, #180148); */
+  background-color: transparent;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(5, 5, 17, 0.85),
+    rgba(6, 4, 24, 0.85),
+    rgba(8, 4, 29, 0.85),
+    rgba(11, 2, 34, 0.85),
+    rgba(38, 7, 107, 0.85)
+  );
+  color: white !important;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.feature-icon{
+  height: 100px !important;
+  width: 100px !important;
+}
+.feature-section .cards-section .card-template .card-title{
+  color: rgb(46,24,197);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
