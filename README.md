@@ -26,12 +26,12 @@ qualities. It help employers make hiring decisions and help you get your dream j
   
   <ul><b>Languages Used:</b><br><br> <img src ="images/python.svg"/ style="height : 75px";> <img src ="images/js.svg"/ style="height : 75px";> <img src ="images/html.svg"/ style="height : 75px";> <img src ="images/css.svg"/ style="height : 75px";> <img src ="images/dart.PNG"/ style="height : 75px";></ul>
   <ul><b> Development Tool:</b><br><br> <img src ="images/andriodstd.PNG"/ style="height : 75px;"><img src ="images/vscode.jpg"/ style="height : 75px";> <img src ="images/jupiternotebook.PNG"/ style="height : 75px";> <img src ="images/spyder.PNG"/ style="height : 75px";><img src ="images/colab.PNG"/ style="height : 75px";></ul>
-<ul> Web Server: IIS</ul>
+
    
   <h3><b>  BACK-END: </b></h3>
   <hr>
   <ul><b>Database: </b><br><br><img src ="images/mongodb.PNG"/ style="height : 75px";> <img src ="images/firebase.PNG"/ style="height : 75px";><img src ="images/node.PNG"/ style="height : 75px";> <img src ="images/express.PNG"/ style="height : 75px";></ul>
-<ul>Operating System: Any Operating System compatible with WWW</ul>
+
   
   <h2>🏆 Our Army</h2>
 <!--     <table>
