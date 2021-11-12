@@ -19,11 +19,7 @@ qualities. It help employers make hiring decisions and help you get your dream j
   </p>
   <h2>💻Software</h2>
     <br>
-<!--   <img src ="images/django.svg"/ style="height : 75px";>
-  <img src ="images/js.svg"/ style="height : 75px";>
-  <img src ="images/react.jpg"/ style="height : 75px";>
-  <img src ="images/flask.png"/ style="height : 75px";> -->
-  
+
   <h3><b>  FRONT-END: </b></h3>
   <hr>
 <ul> <b>Web Technology:<b><br><br> <img src ="images/react.jpg"/ style="height : 75px";>  <img src ="images/js.svg"/ style="height : 75px";><img src ="images/flutter.PNG"/ style="height : 75px";><img src ="images/flask.png"/ style="height : 75px";>  <img src ="images/django.svg"/ style="height : 75px";></ul>
@@ -38,7 +34,7 @@ qualities. It help employers make hiring decisions and help you get your dream j
 <ul>Operating System: Any Operating System compatible with WWW</ul>
   
   <h2>🏆 Our Army</h2>
-    <table>
+<!--     <table>
     <tr>
       <td> MENTORS</td>
     <td> Ankita Bera (1828229)</td>
@@ -57,6 +53,36 @@ qualities. It help employers make hiring decisions and help you get your dream j
       <td>Akriti Choudhary(2005776)</td>
       <td>Priyanka Sengupta(20051556)</td>
     </tr>
-    </table>
-
+    </table> -->
+  
+   <table style="width:100%">
+  <tr>
+    <th>Mentors</th>
+    <th>Team members</th>
+    <th>Learners</th>
+  </tr>
+  <tr>
+    <td>Ankita Bera</td>
+    <td>Ayan Chakraborty</td>
+    <td>Priyanka Sengupta</td>
+  </tr>
+  <tr>
+    <td>Shantanu Biswas</td>
+    <td>Soumayan Pal</td>
+    <td>Akriti Choudhary</td>
+  </tr>
+   <tr>
+    <td> </td>
+    <td>Eshaan Anand</td>
+    <td> </td>
+  </tr>
+     <tr>
+    <td> </td>
+    <td>Sriniketh</td>
+    <td> </td>
+  </tr>
+     <tr>
+    <td> </td>
+    <td>D.Nayek</td>
+       <td> </td>
   </body>
