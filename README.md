@@ -1,4 +1,5 @@
 # RESUMENEST
+<hr>
 <html>
   <head>
   <meta charset="UTF-8">
@@ -17,17 +18,23 @@ qualities. It help employers make hiring decisions and help you get your dream j
   <p>Resumenest is basically a resume building web and android application with added machine learning features. The front end of the application includes a login/signup page via which a new user creates an account or an old user logs into their account.During resume creation the application fetches data from the user using multi forms and the data is added to the user selected template and resume is created. We have then implemented a classification ML-algorithm to classify the best suited job role  based on skill sets and various data from the input resume.
   </p>
   <h2>💻Software</h2>
-    
-  Front-end 
+    <br>
+<!--   <img src ="images/django.svg"/ style="height : 75px";>
+  <img src ="images/js.svg"/ style="height : 75px";>
+  <img src ="images/react.jpg"/ style="height : 75px";>
+  <img src ="images/flask.png"/ style="height : 75px";> -->
   
-<ul> Web Technology : React JS, Flutter, Flask, Django.</ul>
-<ul>Languages Used: Python, JavaScript, HTML, CSS, Dart.</ul>
-<ul> Development Tool: VS Code, Android Studio, Jupyter Notebook, Spyder, Colab.</ul>
+  <h3><b>  FRONT-END: </b></h3>
+  <hr>
+<ul> <b>Web Technology:<b><br><br> <img src ="images/react.jpg"/ style="height : 75px";>  <img src ="images/js.svg"/ style="height : 75px";><img src ="images/flutter.PNG"/ style="height : 75px";><img src ="images/flask.png"/ style="height : 75px";>  <img src ="images/django.svg"/ style="height : 75px";></ul>
+  
+  <ul><b>Languages Used:</b><br><br> <img src ="images/python.svg"/ style="height : 75px";> <img src ="images/js.svg"/ style="height : 75px";> <img src ="images/html.svg"/ style="height : 75px";> <img src ="images/css.svg"/ style="height : 75px";> <img src ="images/dart.PNG"/ style="height : 75px";></ul>
+  <ul><b> Development Tool:</b><br><br> <img src ="images/andriodstd.PNG"/ style="height : 75px;"><img src ="images/vscode.jpg"/ style="height : 75px";> <img src ="images/jupiternotebook.PNG"/ style="height : 75px";> <img src ="images/spyder.PNG"/ style="height : 75px";><img src ="images/colab.PNG"/ style="height : 75px";></ul>
 <ul> Web Server: IIS</ul>
    
-Back-end
-  
-<ul>Database: MongoDB , Firebase, NodeJS, ExpressJS</ul>
+  <h3><b>  BACK-END: </b></h3>
+  <hr>
+  <ul><b>Database: </b><br><br><img src ="images/mongodb.PNG"/ style="height : 75px";> <img src ="images/firebase.PNG"/ style="height : 75px";><img src ="images/node.PNG"/ style="height : 75px";> <img src ="images/express.PNG"/ style="height : 75px";></ul>
 <ul>Operating System: Any Operating System compatible with WWW</ul>
   
   <h2>🏆 Our Army</h2>
