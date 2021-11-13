@@ -81,8 +81,4 @@ qualities. It help employers make hiring decisions and help you get your dream j
     <td>Sriniketh</td>
     <td> </td>
   </tr>
-     <tr>
-    <td> </td>
-    <td>D.Nayek</td>
-       <td> </td>
   </body>
