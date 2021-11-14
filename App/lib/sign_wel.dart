@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:resumantor/explore.dart';
 import 'persoanl_detail.dart';
 
 class Sign_Welc extends StatelessWidget {
@@ -82,6 +83,7 @@ class Sign_Welc extends StatelessWidget {
                         height: 60,
                         onPressed: (){
                           //Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage() ));
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => ExploreTemp() ));
                         } ,
                         color: Colors.white,
                         //defining the shape

@@ -151,7 +151,10 @@ class LoginPage extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      Text("Don't have an Account ? "),
+                      Text("Don't have an Account ? ",
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),),
                       new InkWell(
                         onTap: () {
                           Navigator.push(
@@ -163,6 +166,7 @@ class LoginPage extends StatelessWidget {
                           padding: new EdgeInsets.all(3.0),
                           child: new Text("SignUp",
                             style: TextStyle(
+                              color: Colors.blue,
                               fontSize: 18,
                               fontWeight: FontWeight.w600,
                             ),),
