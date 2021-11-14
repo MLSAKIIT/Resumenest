@@ -1,0 +1,75 @@
+import 'package:flutter/material.dart';
+
+class ExploreTemp extends StatelessWidget {
+  const ExploreTemp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      resizeToAvoidBottomInset: false,
+      backgroundColor: Colors.black,
+      appBar: AppBar(
+        elevation: 0.8,
+        backgroundColor: Colors.black,
+        leading: IconButton(
+          onPressed: () {
+            Navigator.pop(context);
+          },
+          icon: Icon(
+            Icons.arrow_back,
+            size: 20,
+            color: Colors.white,
+          ),
+        ),
+      ),
+      body: SingleChildScrollView(
+        child: Column(
+          children: <Widget>[
+            Text("Templates",
+            style: TextStyle(
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
+              color: Colors.blue,
+            ),),
+            SizedBox(height: 40,),
+            Padding(
+              padding: const EdgeInsets.only(left: 50,right: 50),
+              child: InkWell(
+
+                onTap: () {},
+                child: ClipRRect(
+                  child: Image.asset('assets/res1.jpg',
+                      width: 310, height: 410.0,alignment: Alignment.topCenter,),
+                ),
+              ),
+            ),
+            SizedBox(height: 70,),
+            Padding(
+              padding: const EdgeInsets.only(left: 50,right: 50),
+              child: InkWell(
+
+                onTap: () {},
+                child: ClipRRect(
+                  child: Image.asset('assets/res1.jpg',
+                    width: 310, height: 410.0,alignment: Alignment.topCenter,),
+                ),
+              ),
+            ),
+            SizedBox(height: 70,),
+            Padding(
+              padding: const EdgeInsets.only(left: 50,right: 50),
+              child: InkWell(
+
+                onTap: () {},
+                child: ClipRRect(
+                  child: Image.asset('assets/res2.jpg',
+                    width: 310, height: 410.0,alignment: Alignment.topCenter,),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}

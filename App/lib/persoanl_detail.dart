@@ -49,27 +49,27 @@ class PersonalDetails extends StatelessWidget {
                       //First Name
 
                       //E-mail
-                      TextFormField(
-                        validator: (value) => value!.isEmpty
-                            ? 'Please enter your valid e-mail'
-                            : null,
-                        style: TextStyle(
-                            color: Colors.white
-                        ),
-                        decoration: InputDecoration(
-                          prefixIcon: Icon(Icons.email_outlined, color: Colors.white),
-                          labelText: "E-mail ",
-                          hintText: "Enter your e-mail",
-                            focusedBorder:OutlineInputBorder(
-                              borderSide: const BorderSide(color: Colors.blue, width: 2.0),
-                              borderRadius: BorderRadius.circular(25.0),
-                            ),
-                            enabledBorder: OutlineInputBorder(
-                              borderSide: BorderSide(color: Colors.white),
-                              borderRadius: BorderRadius.circular(10.0),
-                            )
-                        ),
-                      ),
+                      // TextFormField(
+                      //   validator: (value) => value!.isEmpty
+                      //       ? 'Please enter your valid e-mail'
+                      //       : null,
+                      //   style: TextStyle(
+                      //       color: Colors.white
+                      //   ),
+                      //   decoration: InputDecoration(
+                      //     prefixIcon: Icon(Icons.email_outlined, color: Colors.white),
+                      //     labelText: "E-mail ",
+                      //     hintText: "Enter your e-mail",
+                      //       focusedBorder:OutlineInputBorder(
+                      //         borderSide: const BorderSide(color: Colors.blue, width: 2.0),
+                      //         borderRadius: BorderRadius.circular(25.0),
+                      //       ),
+                      //       enabledBorder: OutlineInputBorder(
+                      //         borderSide: BorderSide(color: Colors.white),
+                      //         borderRadius: BorderRadius.circular(10.0),
+                      //       )
+                      //   ),
+                      // ),
                       SizedBox(
                         width: 20.0,
                         height: 20.0,
@@ -131,7 +131,13 @@ class PersonalDetails extends StatelessWidget {
                             color: Colors.white
                         ),
                         decoration: InputDecoration(
-                            //prefixIcon: Icon(Icons.),
+                            // prefixIcon: Padding(
+                            //   padding: const EdgeInsets.all(10.0),
+                            //   child: Image.asset(
+                            //     'assets/github.png',
+                            //    // fit: BoxFit.fill,
+                            //   ),
+                            // ),
                           labelText: "Github",
                           hintText: "Github",
                             focusedBorder:OutlineInputBorder(
@@ -155,6 +161,11 @@ class PersonalDetails extends StatelessWidget {
                             color: Colors.white
                         ),
                         decoration: InputDecoration(
+                            // icon: ImageIcon(
+                            //   //AssetImage("images/linkedin.png"),
+                            //   color: Colors.red,
+                            //   size: 24,
+                            // ),
                           labelText: "LinkedIn",
                           hintText: "LinkedIn",
                             focusedBorder:OutlineInputBorder(

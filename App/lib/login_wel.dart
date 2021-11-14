@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:resumantor/persoanl_detail.dart';
+import 'package:resumantor/explore.dart';
 class Login_Welc extends StatelessWidget {
   const Login_Welc({Key? key}) : super(key: key);
 
@@ -10,7 +11,7 @@ class Login_Welc extends StatelessWidget {
       backgroundColor: Colors.black,
       appBar: AppBar(
         elevation: 0.8,
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.black,
         leading: IconButton(
           onPressed: () {
             Navigator.pop(context);
@@ -106,6 +107,7 @@ class Login_Welc extends StatelessWidget {
                         height: 60,
                         onPressed: (){
                           //Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage() ));
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => ExploreTemp() ));
                         },
                         color: Colors.white,
                         //defining the shape
