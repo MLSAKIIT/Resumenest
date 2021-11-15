@@ -25,7 +25,7 @@ class ExploreTemp extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Text("Templates",
+            Text("Choose the Templates",
             style: TextStyle(
               fontSize: 30,
               fontWeight: FontWeight.bold,
@@ -50,7 +50,7 @@ class ExploreTemp extends StatelessWidget {
 
                 onTap: () {},
                 child: ClipRRect(
-                  child: Image.asset('assets/res1.jpg',
+                  child: Image.asset('assets/res2.jpg',
                     width: 310, height: 410.0,alignment: Alignment.topCenter,),
                 ),
               ),
@@ -62,11 +62,48 @@ class ExploreTemp extends StatelessWidget {
 
                 onTap: () {},
                 child: ClipRRect(
-                  child: Image.asset('assets/res2.jpg',
+                  child: Image.asset('assets/res3.jpg',
                     width: 310, height: 410.0,alignment: Alignment.topCenter,),
                 ),
               ),
             ),
+            SizedBox(height: 70,),
+            Padding(
+              padding: const EdgeInsets.only(left: 50,right: 50),
+              child: InkWell(
+
+                onTap: () {},
+                child: ClipRRect(
+                  child: Image.asset('assets/res4.jpg',
+                    width: 310, height: 410.0,alignment: Alignment.topCenter,),
+                ),
+              ),
+            ),
+            SizedBox(height: 70,),
+            Padding(
+              padding: const EdgeInsets.only(left: 50,right: 50),
+              child: InkWell(
+
+                onTap: () {},
+                child: ClipRRect(
+                  child: Image.asset('assets/res5.jpg',
+                    width: 310, height: 410.0,alignment: Alignment.topCenter,),
+                ),
+              ),
+            ),
+            SizedBox(height: 70,),
+            Padding(
+              padding: const EdgeInsets.only(left: 50,right: 50),
+              child: InkWell(
+
+                onTap: () {},
+                child: ClipRRect(
+                  child: Image.asset('assets/res6.jpg',
+                    width: 310, height: 410.0,alignment: Alignment.topCenter,),
+                ),
+              ),
+            ),
+
           ],
         ),
       ),
