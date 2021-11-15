@@ -107,6 +107,30 @@ class PersonalDetails extends StatelessWidget {
                             color: Colors.white
                         ),
                         decoration: InputDecoration(
+                            prefixIcon: Icon(Icons.house_rounded, color: Colors.white),
+                            labelText: "Address",
+                            hintText: "Address",
+                            focusedBorder:OutlineInputBorder(
+                              borderSide: const BorderSide(color: Colors.blue, width: 2.0),
+                              borderRadius: BorderRadius.circular(25.0),
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderSide: BorderSide(color: Colors.white),
+                              borderRadius: BorderRadius.circular(10.0),
+                            )
+                        ),
+                      ),
+                      SizedBox(
+                        width: 20.0,
+                        height: 20.0,
+                      ),
+                      //Website
+                      TextFormField(
+
+                        style: TextStyle(
+                            color: Colors.white
+                        ),
+                        decoration: InputDecoration(
                             prefixIcon: Icon(Icons.vpn_lock, color: Colors.white),
                           labelText: "Website",
                           hintText: "Website",
@@ -131,13 +155,14 @@ class PersonalDetails extends StatelessWidget {
                             color: Colors.white
                         ),
                         decoration: InputDecoration(
-                            // prefixIcon: Padding(
-                            //   padding: const EdgeInsets.all(10.0),
-                            //   child: Image.asset(
-                            //     'assets/github.png',
-                            //    // fit: BoxFit.fill,
-                            //   ),
-                            // ),
+                            prefixIcon: Padding(
+                              padding: const EdgeInsets.all(10.0),
+                              child: Image.asset(
+                                'assets/git.png',
+                               height: 5,
+                               // fit: BoxFit.fill,
+                              ),
+                            ),
                           labelText: "Github",
                           hintText: "Github",
                             focusedBorder:OutlineInputBorder(
@@ -161,8 +186,16 @@ class PersonalDetails extends StatelessWidget {
                             color: Colors.white
                         ),
                         decoration: InputDecoration(
+                            prefixIcon: Padding(
+                              padding: const EdgeInsets.all(10.0),
+                              child: Image.asset(
+                                'assets/link.png',
+                                height: 5,
+                                // fit: BoxFit.fill,
+                              ),
+                            ),
                             // icon: ImageIcon(
-                            //   //AssetImage("images/linkedin.png"),
+                            //   AssetImage("images/linkedin.png"),
                             //   color: Colors.red,
                             //   size: 24,
                             // ),

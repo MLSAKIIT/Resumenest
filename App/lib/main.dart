@@ -57,7 +57,7 @@ class HomePage extends StatelessWidget {
                  SizedBox(
                    height: 20,
                  ),
-                 Text("One stop solution for every job aspirants",
+                 Text("One stop solution for every job aspirant",
                  textAlign:TextAlign.center,
                  style: TextStyle(
                    color: Colors.blue,

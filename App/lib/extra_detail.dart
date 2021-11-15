@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:resumantor/explore.dart';
 
 class Extra_details extends StatelessWidget {
   //const Extra_details({Key? key}) : super(key: key);
@@ -254,7 +255,7 @@ class Extra_details extends StatelessWidget {
                         height: 20.0,
                       ),
                       Text(
-                        "Interest",
+                        "Achievement",
                         style: TextStyle(
                           color: Colors.blue,
                           fontSize: 20,
@@ -268,15 +269,15 @@ class Extra_details extends StatelessWidget {
                       //Organisation
                       TextFormField(
                         validator: (value) => value!.isEmpty
-                            ? 'Interest'
+                            ? 'Achievement'
                             : null,
                         style: TextStyle(
                             color: Colors.white
                         ),
                         decoration: InputDecoration(
                             prefixIcon: Icon(Icons.animation, color: Colors.white),
-                            labelText: "Interest 1",
-                            hintText: "Interest 1",
+                            labelText: "Achievement 1",
+                            hintText: "Achievement 1",
                             focusedBorder:OutlineInputBorder(
                               borderSide: const BorderSide(color: Colors.blue, width: 2.0),
                               borderRadius: BorderRadius.circular(25.0),
@@ -294,15 +295,15 @@ class Extra_details extends StatelessWidget {
                       //2
                       TextFormField(
                         validator: (value) => value!.isEmpty
-                            ? 'Interest'
+                            ? 'Achievement'
                             : null,
                         style: TextStyle(
                             color: Colors.white
                         ),
                         decoration: InputDecoration(
                             prefixIcon: Icon(Icons.animation, color: Colors.white),
-                            labelText: "Interest 2",
-                            hintText: "Interest 2",
+                            labelText: "Achievement 2",
+                            hintText: "Achievement 2",
                             focusedBorder:OutlineInputBorder(
                               borderSide: const BorderSide(color: Colors.blue, width: 2.0),
                               borderRadius: BorderRadius.circular(25.0),
@@ -334,6 +335,7 @@ class Extra_details extends StatelessWidget {
           _myformKey.currentState!.validate();
           if (!_myformKey.currentState!.validate()) {
             //Navigator.push(context, MaterialPageRoute(builder: (context) => Education_detail() ));
+            Navigator.push(context, MaterialPageRoute(builder: (context) => ExploreTemp() ));
           }
         },
       ),
