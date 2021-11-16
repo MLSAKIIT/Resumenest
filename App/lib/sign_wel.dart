@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:resumantor/Exp_details.dart';
 import 'package:resumantor/explore.dart';
 import 'persoanl_detail.dart';
 
@@ -97,6 +98,30 @@ class Sign_Welc extends StatelessWidget {
                           "Explore Templates",
                           style: TextStyle(
                             color: Colors.black,
+                              fontWeight: FontWeight.w600,
+                              fontSize: 18
+                          ),
+                        ),
+                      ),
+                      SizedBox(height: 20),
+                      MaterialButton(
+                        minWidth: 350,
+                        height: 60,
+                        onPressed: (){
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => Experience_Details() ));
+                        } ,
+                        color: Colors.yellow,
+                        //defining the shape
+
+                        shape: RoundedRectangleBorder(
+                            side: BorderSide(
+                                color: Colors.black
+                            ),
+                            borderRadius: BorderRadius.circular(50)
+                        ),
+                        child: Text(
+                          "Resume Score",
+                          style: TextStyle(
                               fontWeight: FontWeight.w600,
                               fontSize: 18
                           ),
