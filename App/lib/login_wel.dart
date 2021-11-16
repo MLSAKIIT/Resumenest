@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:resumantor/Exp_details.dart';
 import 'package:resumantor/persoanl_detail.dart';
 import 'package:resumantor/explore.dart';
 class Login_Welc extends StatelessWidget {
@@ -82,6 +83,7 @@ class Login_Welc extends StatelessWidget {
                         height: 60,
                         onPressed: (){
                           //Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage() ));
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => Experience_Details() ));
                         } ,
                         color: Colors.yellow,
                         //defining the shape
@@ -93,7 +95,7 @@ class Login_Welc extends StatelessWidget {
                             borderRadius: BorderRadius.circular(50)
                         ),
                         child: Text(
-                          "Your Resumes",
+                          "Resume Score",
                           style: TextStyle(
                               fontWeight: FontWeight.w600,
                               fontSize: 18
