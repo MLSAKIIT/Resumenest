@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:resumantor/Exp_details.dart';
 import 'package:resumantor/explore.dart';
+import 'package:resumantor/signup.dart';
 import 'persoanl_detail.dart';
 
 class Sign_Welc extends StatelessWidget {
