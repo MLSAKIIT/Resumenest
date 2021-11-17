@@ -2,8 +2,23 @@ import 'package:flutter/material.dart';
 import 'package:resumantor/login.dart';
 import 'package:resumantor/sign_wel.dart';
 
-class SignupPage extends StatelessWidget {
-  const SignupPage({Key? key}) : super(key: key);
+
+class SignupPage extends StatefulWidget {
+
+  @override
+  _SignupPageState createState() => _SignupPageState();
+}
+
+class _SignupPageState extends State<SignupPage> {
+
+
+   String first_name = "";
+
+  String last_name = "";
+
+  String email = "";
+
+  String password = "";
 
   @override
   Widget build(BuildContext context) {
@@ -76,6 +91,7 @@ class SignupPage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(10.0),
                         )
                     ),
+                    onChanged: (value) => setState(() => {first_name = value}),
                   ),
                   SizedBox(
                     width: 20.0,
@@ -253,38 +269,6 @@ class SignupPage extends StatelessWidget {
   }
 }
 
-//creating a widget for text field
-Widget inputFile({label, obsureText = false}) {
-  return Column(
-    crossAxisAlignment: CrossAxisAlignment.start,
-    children: <Widget>[
-      Text(
-        label,
-        style: TextStyle(
-          fontSize: 15,
-          fontWeight: FontWeight.w400,
-          color: Colors.black87,
-        ),
-      ),
-      SizedBox(
-        height: 5,
-      ),
-      TextField(
-        obscureText: obsureText,
-        decoration: InputDecoration(
-            contentPadding: EdgeInsets.symmetric(vertical: 0, horizontal: 10),
-            enabledBorder: OutlineInputBorder(
-                borderSide: BorderSide(
-                  color: Colors.grey.shade400,
-                )),
-            border: OutlineInputBorder(
-                borderSide: BorderSide(color: Colors.grey.shade400))),
-      ),
-      SizedBox(
-        height: 10,
-      ),
-    ],
-  );
-}
+
 
 
