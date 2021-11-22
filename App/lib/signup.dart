@@ -11,14 +11,7 @@ class SignupPage extends StatefulWidget {
 
 class _SignupPageState extends State<SignupPage> {
 
-
-   String first_name = "";
-
-  String last_name = "";
-
-  String email = "";
-
-  String password = "";
+  TextEditingController _name = new TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -70,6 +63,7 @@ class _SignupPageState extends State<SignupPage> {
 
 
                   TextFormField(
+                    controller: _name,
                     validator: (value) => value!.isEmpty
                         ? 'Please enter your First name'
                         : null,
@@ -91,7 +85,7 @@ class _SignupPageState extends State<SignupPage> {
                           borderRadius: BorderRadius.circular(10.0),
                         )
                     ),
-                    onChanged: (value) => setState(() => {first_name = value}),
+                    //onChanged: (value) => setState(() => {first_name = value}),
                   ),
                   SizedBox(
                     width: 20.0,
@@ -218,7 +212,7 @@ class _SignupPageState extends State<SignupPage> {
                   minWidth: double.infinity,
                   height: 60,
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder:( context) => Sign_Welc()));
+                    Navigator.push(context, MaterialPageRoute(builder:(context) => Sign_Welc(name : _name.text)));
                   },
                   color: Color(0xff0095FF),
                   elevation: 5,
