@@ -4,6 +4,14 @@ import 'package:resumantor/extra_detail.dart';
 class Experience_Details extends StatelessWidget {
   //const Experience_Details({Key? key}) : super(key: key);
   var _myformKey = GlobalKey<FormState>();
+  TextEditingController _org1 = new TextEditingController();
+  TextEditingController _pos1 = new TextEditingController();
+  TextEditingController _dur1 = new TextEditingController();
+  TextEditingController _des1 = new TextEditingController();
+  TextEditingController _org2 = new TextEditingController();
+  TextEditingController _pos2 = new TextEditingController();
+  TextEditingController _dur2 = new TextEditingController();
+  TextEditingController _des2 = new TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -56,6 +64,7 @@ class Experience_Details extends StatelessWidget {
                       ),
                       //Organisation
                       TextFormField(
+                        controller: _org1,
                         validator: (value) => value!.isEmpty
                             ? 'Please enter your Organisation'
                             : null,
@@ -82,6 +91,7 @@ class Experience_Details extends StatelessWidget {
                       ),
                       //Position
                       TextFormField(
+                        controller: _pos1,
                         validator: (value) => value!.isEmpty
                             ? 'Please enter Position'
                             : null,
@@ -108,6 +118,7 @@ class Experience_Details extends StatelessWidget {
                       ),
                       //Duration
                       TextFormField(
+                        controller: _dur1,
                         validator: (value) => value!.isEmpty
                             ? 'Please enter Duration'
                             : null,
@@ -134,6 +145,7 @@ class Experience_Details extends StatelessWidget {
                       ),
                       //Description
                       TextFormField(
+                        controller: _des1,
                         validator: (value) => value!.isEmpty
                             ? 'Please enter some Description'
                             : null,
@@ -172,6 +184,7 @@ class Experience_Details extends StatelessWidget {
                       ),
                       //Organisation
                       TextFormField(
+                        controller: _org2,
                         validator: (value) => value!.isEmpty
                             ? 'Please enter your Organisation'
                             : null,
@@ -198,6 +211,7 @@ class Experience_Details extends StatelessWidget {
                       ),
                       //Position
                       TextFormField(
+                        controller: _pos2,
                         validator: (value) => value!.isEmpty
                             ? 'Please enter Position'
                             : null,
@@ -224,6 +238,7 @@ class Experience_Details extends StatelessWidget {
                       ),
                       //Duration
                       TextFormField(
+                        controller: _dur2,
                         validator: (value) => value!.isEmpty
                             ? 'Please enter Duration'
                             : null,
@@ -250,6 +265,7 @@ class Experience_Details extends StatelessWidget {
                       ),
                       //Description
                       TextFormField(
+                        controller: _des2,
                         validator: (value) => value!.isEmpty
                             ? 'Please enter some Description'
                             : null,

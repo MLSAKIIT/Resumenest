@@ -5,6 +5,16 @@ class Extra_details extends StatelessWidget {
   //const Extra_details({Key? key}) : super(key: key);
   var _myformKey = GlobalKey<FormState>();
 
+  TextEditingController _skill1 = new TextEditingController();
+  TextEditingController _skill2 = new TextEditingController();
+  TextEditingController _skill3 = new TextEditingController();
+  TextEditingController _skill4 = new TextEditingController();
+  TextEditingController _lang1 = new TextEditingController();
+  TextEditingController _lang2 = new TextEditingController();
+  TextEditingController _lang3 = new TextEditingController();
+  TextEditingController _ach1 = new TextEditingController();
+  TextEditingController _ach2 = new TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -56,6 +66,7 @@ class Extra_details extends StatelessWidget {
                       ),
                       //Skill 1
                       TextFormField(
+                        controller: _skill1,
                         validator: (value) => value!.isEmpty
                             ? 'Skill'
                             : null,
@@ -82,6 +93,7 @@ class Extra_details extends StatelessWidget {
                       ),
                       //Skill 2
                       TextFormField(
+                        controller: _skill2,
                         validator: (value) => value!.isEmpty
                             ? 'Skill'
                             : null,
@@ -108,6 +120,7 @@ class Extra_details extends StatelessWidget {
                       ),
                       //Skill 3
                       TextFormField(
+                        controller: _skill3,
                         validator: (value) => value!.isEmpty
                             ? 'Skill'
                             : null,
@@ -134,6 +147,7 @@ class Extra_details extends StatelessWidget {
                       ),
                       //Skill 4
                       TextFormField(
+                        controller: _skill4,
                         validator: (value) => value!.isEmpty
                             ? 'Skill'
                             : null,
@@ -172,6 +186,7 @@ class Extra_details extends StatelessWidget {
                       ),
                       //Language1
                       TextFormField(
+                        controller: _lang1,
                         validator: (value) => value!.isEmpty
                             ? 'Language'
                             : null,
@@ -198,6 +213,7 @@ class Extra_details extends StatelessWidget {
                       ),
                       //Language 2
                       TextFormField(
+                        controller: _lang2,
                         validator: (value) => value!.isEmpty
                             ? 'Language'
                             : null,
@@ -224,6 +240,7 @@ class Extra_details extends StatelessWidget {
                       ),
                       //Language 3
                       TextFormField(
+                        controller: _lang3,
                         validator: (value) => value!.isEmpty
                             ? 'Language'
                             : null,
@@ -268,6 +285,7 @@ class Extra_details extends StatelessWidget {
                       ),
                       //Organisation
                       TextFormField(
+                        controller: _ach1,
                         validator: (value) => value!.isEmpty
                             ? 'Achievement'
                             : null,
@@ -294,6 +312,7 @@ class Extra_details extends StatelessWidget {
                       ),
                       //2
                       TextFormField(
+                        controller: _ach2,
                         validator: (value) => value!.isEmpty
                             ? 'Achievement'
                             : null,
@@ -335,7 +354,6 @@ class Extra_details extends StatelessWidget {
           _myformKey.currentState!.validate();
           if (!_myformKey.currentState!.validate()) {
             //Navigator.push(context, MaterialPageRoute(builder: (context) => Education_detail() ));
-            Navigator.push(context, MaterialPageRoute(builder: (context) => ExploreTemp() ));
           }
         },
       ),

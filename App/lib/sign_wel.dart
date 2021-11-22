@@ -5,7 +5,8 @@ import 'package:resumantor/signup.dart';
 import 'persoanl_detail.dart';
 
 class Sign_Welc extends StatelessWidget {
-  const Sign_Welc({Key? key}) : super(key: key);
+  String name;
+  Sign_Welc({required this.name});
 
   @override
   Widget build(BuildContext context) {
@@ -47,9 +48,9 @@ class Sign_Welc extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Name",
+                        "$name",
                         style: TextStyle(
-                          color: Colors.red,
+                          color: Colors.yellow,
                           fontSize: 30,
                           fontWeight: FontWeight.bold,
                         ),
@@ -134,7 +135,7 @@ class Sign_Welc extends StatelessWidget {
                         minWidth: 350,
                         height: 60,
                         onPressed: (){
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => PersonalDetails() ));
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => ExploreTemp() ));
                           //Navigator.push(context, MaterialPageRoute(builder: (context) => SignupPage() ));
                         } ,
                         //defining the shape

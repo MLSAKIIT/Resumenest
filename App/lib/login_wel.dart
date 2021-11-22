@@ -136,7 +136,8 @@ class Login_Welc extends StatelessWidget {
                         minWidth: 350,
                         height: 60,
                         onPressed: (){
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => PersonalDetails() ));
+                          //Navigator.push(context, MaterialPageRoute(builder: (context) => PersonalDetails() ));
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => ExploreTemp() ));
                         } ,
                         //defining the shape
                         color: Color(0xff0095FF),
