@@ -1,0 +1,34 @@
+.navbar-section{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+    padding: 0px 180px;
+    background-color: rgba(57,201,166,0.7);
+    z-index: 2;
+}
+.nav-div{
+    padding: 0px;
+    margin: 0px;
+   max-width: unset;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.me-auto{
+    margin:0px !important;
+}
+.brand{
+    font-size: 18px !important;
+}
+.nav-item{
+    font-size: 18px;
+    margin: 0px 15px;
+    color: #fafbfd !important;
+}
+
+.Register{
+    background: #16896d;
+    border: none;
+    border-radius: 40px;
+    width: 100px;
+}
