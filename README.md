@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   </head>
 <body>
-<img src ="msc1.png"/>
+<img src ="./images/cover.png"/>
 <h2>✨Introduction</h2>
 
   <p style ="font size : 160%;"><b><i>"If opportunity doesn't knock, build a door."</b> ― Milton Berle</i>
