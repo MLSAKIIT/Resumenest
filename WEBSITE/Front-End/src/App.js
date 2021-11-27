@@ -1,18 +1,19 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
-import LandingPage from "./components/Landing Page/LandingPage";
-import "./App.css";
-function App() {
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import { Routes, Route } from "react-router-dom";
+import Home from "./MainComponents/LandingPage/App";
+import AuthPage from "./MainComponents/AuthPage/App";
+
+const App = () => {
   return (
-    <div>
-      <BrowserRouter>
-        <Routes>
-          <Route exact path="" element={<LandingPage />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/auth" element={<AuthPage/>} />
+      </Routes>
+    </>
   );
-}
+};
 
 export default App;

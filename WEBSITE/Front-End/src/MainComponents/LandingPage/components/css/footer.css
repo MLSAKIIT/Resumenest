@@ -1,0 +1,50 @@
+.footer-section {
+}
+.svg-class {
+  position: relative;
+  bottom: -250px;
+  margin-top: -250px;
+  z-index: -1;
+}
+
+.footer-section .content-section {
+  padding: 20px 180px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+}
+.brand-section {
+  max-width: 400px;
+}
+.brand-section h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #16896d;
+}
+.brand-section p {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400 !important;
+}
+.link-section {
+  display: grid;
+  grid-gap: 150px;
+  grid-template-columns: auto auto;
+}
+.link-section h6 {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #16896d;
+}
+.link-section ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.link-section ul li {
+  margin: 10px 0px;
+  
+}
+.copyright-section {
+  font-family: "ABeeZee", sans-serif;
+  
+}
